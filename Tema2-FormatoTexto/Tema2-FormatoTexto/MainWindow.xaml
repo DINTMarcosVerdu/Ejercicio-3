@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tema2_FormatoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_FormatoTexto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="entrada" HorizontalAlignment="Left" Height="95" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Margin="86,123,0,0" TextChanged="entrada_TextChanged"/>
+        <TextBlock x:Name="salida" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="86,293,0,0" Height="62" Width="635" Foreground="#FFD87777" Background="#FFE46868" TextAlignment="Center"/>
+        <CheckBox x:Name="Cursiva" Content="Cursiva" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="308,171,0,0" FontStyle="Italic" Checked="Cursiva_Checked" Unchecked="Cursiva_Unchecked"/>
+        <CheckBox x:Name="Negrita" Content="Negrita" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="308,125,0,0" FontWeight="Bold" Checked="Negrita_Checked" Unchecked="Negrita_Unchecked"/>
+        <RadioButton x:Name="verde" Content="Verde" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="525,225,0,0" GroupName="colores" Checked="verde_Checked"/>
+        <RadioButton x:Name="rojo" Content="Rojo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="525,171,0,0" Checked="rojo_Checked" GroupName="colores"/>
+        <RadioButton x:Name="azul" Content="Azul" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="525,111,0,0" GroupName="colores" Checked="azul_Checked"/>
+
+    </Grid>
+</Window>
