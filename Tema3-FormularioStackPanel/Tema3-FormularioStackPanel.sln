@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema3-FormularioStackPanel", "Tema3-FormularioStackPanel\Tema3-FormularioStackPanel.csproj", "{4A1709CE-1B46-4CFB-8475-A1F9865DF59C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1709CE-1B46-4CFB-8475-A1F9865DF59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1709CE-1B46-4CFB-8475-A1F9865DF59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1709CE-1B46-4CFB-8475-A1F9865DF59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1709CE-1B46-4CFB-8475-A1F9865DF59C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17139A8E-E520-439D-AF97-D3FBB2396B19}
+	EndGlobalSection
+EndGlobal
